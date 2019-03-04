@@ -8,6 +8,8 @@ public class DialogGithub extends JDialog {
     private JButton buttonOK;
     private JButton buttonCancel;
     private JLabel label1;
+    private JLabel label2;
+    private JLabel label3;
 
     public DialogGithub() {
         setContentPane(contentPane);
@@ -48,6 +50,14 @@ public class DialogGithub extends JDialog {
 
     public void setLabel1(String text) {
         this.label1.setText(text);
+    }
+
+    public void setLabel2(String text) {
+        this.label2.setText(text);
+    }
+
+    public void setLabel3(String text) {
+        this.label3.setText(text);
     }
 
     private void onOK() {
